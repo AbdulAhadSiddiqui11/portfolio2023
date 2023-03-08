@@ -17,9 +17,6 @@ import {
     docker,
     deloitte,
     crio,
-    carrent,
-    jobit,
-    tripguide,
     bootstrap,
     clang,
     cpp,
@@ -27,6 +24,9 @@ import {
     nextjs,
     python,
     sql,
+    cacta,
+    seed,
+    abdGithub,
   } from "../assets";
   
   export const navLinks = [
@@ -202,16 +202,20 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Cacta",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Introducing Cacta - a social media platform for creating, sharing, and discovering short videos. With modern and responsive design, Cacta offers a fully immersive user experience.",
       tags: [
         {
-          name: "react",
+          name: "typescript",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600",
+        },
+        {
+          name: "next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "react",
           color: "green-text-gradient",
         },
         {
@@ -219,50 +223,57 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: cacta,
+      source_code_link: "https://github.com/AbdulAhadSiddiqui11/Cacta",
+      live_url: "https://cacta.abdulahadsiddiqui.com/",
     },
     {
-      name: "Job IT",
+      name: "Seed",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Seed is a modern blogging app designed to provide a blazing-fast user experience through static site generation and incremental static site regeneration and comes with a beautiful dark theme.",
       tags: [
         {
-          name: "react",
+          name: "typescript",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600",
+        },
+        {
+          name: "next.js",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "graphQL",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: seed,
+      source_code_link: "https://github.com/AbdulAhadSiddiqui11/seed",
+      live_url: "https://seed.abdulahadsiddiqui.com/",
     },
     {
-      name: "Trip Guide",
+      name: "My GitHub",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Explore all my projects on Github, ranging from web development to deep learning and web scraping. Discover my coding style, problem-solving skills, and passion for technology.",
       tags: [
         {
-          name: "nextjs",
+          name: "code-portfolio",
+          color: "text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600",
+        },
+        {
+          name: "open-source",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "git",
           color: "green-text-gradient",
         },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: abdGithub,
+      source_code_link: "https://github.com/AbdulAhadSiddiqui11",
+      live_url: "https://github.com/AbdulAhadSiddiqui11",
     },
   ];
   

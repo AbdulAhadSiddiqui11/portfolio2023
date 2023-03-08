@@ -31,9 +31,9 @@ import sql from "./tech/sql.png";
 import deloitte from "./company/Deloitte.png";
 import crio from "./company/Crio.png"
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import cacta from "./cacta.png";
+import seed from "./seed.png";
+import abdGithub from "./abdGithub.png";
 
 export {
   logo,
@@ -59,9 +59,9 @@ export {
   threejs,
   deloitte,
   crio,
-  carrent,
-  jobit,
-  tripguide,
+  cacta,
+  seed,
+  abdGithub,
   bootstrap,
   clang,
   cpp,
