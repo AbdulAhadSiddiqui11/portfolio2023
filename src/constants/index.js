@@ -20,7 +20,13 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
+    bootstrap,
+    clang,
+    cpp,
+    java,
+    nextjs,
+    python,
+    sql,
   } from "../assets";
   
   export const navLinks = [
@@ -79,37 +85,49 @@ import {
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "Next JS",
+      icon: nextjs,
     },
     {
       name: "Tailwind CSS",
       icon: tailwind,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Bootstrap",
+      icon: bootstrap,
+    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
+    {
+      name: "C++",
+      icon: cpp,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Java",
+      icon: java,
+    },
+    // {
+    //   name: "C",
+    //   icon: clang,
+    // },
+    {
+      name: "SQL",
+      icon: sql,
     },
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    },    
   ];
   
   const experiences = [
@@ -146,7 +164,7 @@ import {
       company_name: "Crio.Do",
       icon: crio,
       iconBg: "#2df7c5",
-      date: "Jan 2022 - Jan 2023",
+      date: "December 2019 - February 2020",
       points: [
         "Provided technical support to users during Django and REST API based product development workshops, assisting with code debugging and issue resolution.",
         "Collaborated with the systems team to identify and solve system-related issues faced by workshop participants.",

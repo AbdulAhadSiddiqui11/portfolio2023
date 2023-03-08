@@ -20,6 +20,13 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import bootstrap from "./tech/bootstrap.png";
+import clang from "./tech/clang.png";
+import cpp from "./tech/cpp.png";
+import java from "./tech/java.png";
+import nextjs from "./tech/nextjs.png";
+import python from "./tech/python.png";
+import sql from "./tech/sql.png";
 
 import deloitte from "./company/Deloitte.png";
 import crio from "./company/Crio.png"
@@ -55,4 +62,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  bootstrap,
+  clang,
+  cpp,
+  java,
+  nextjs,
+  python,
+  sql,
 };
