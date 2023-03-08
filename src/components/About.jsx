@@ -38,7 +38,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px] text-justify"
       >
         I'm a results-driven software engineer with a passion for solving complex problems. With over 2 years of full-time experience, I have designed, built, tested, and managed full-stack web solutions that drive efficiency and deliver business results.
         <br /><br />I possess a strong skill set in a variety of programming languages, including TypeScript, JavaScript, C++, Python, C, and Java, as well as proficiency in algorithms and data structures. I am also proficient in popular web frameworks such as React, NextJs, and have experience working with CSS frameworks such as Tailwind CSS and Bootstrap.
