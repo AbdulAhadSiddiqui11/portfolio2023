@@ -50,7 +50,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Fronend Developer",
+      title: "Frontend Developer",
       icon: web,
     },
     {
