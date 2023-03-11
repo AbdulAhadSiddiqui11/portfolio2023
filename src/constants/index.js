@@ -225,7 +225,7 @@ import {
       ],
       image: cacta,
       source_code_link: "https://github.com/AbdulAhadSiddiqui11/Cacta",
-      live_url: "https://cacta.abdulahadsiddiqui.com/",
+      live_url: "https://cacta.vercel.app/",
     },
     {
       name: "Seed",
@@ -251,7 +251,7 @@ import {
       ],
       image: seed,
       source_code_link: "https://github.com/AbdulAhadSiddiqui11/seed",
-      live_url: "https://seed.abdulahadsiddiqui.com/",
+      live_url: "https://seed-neon.vercel.app/",
     },
     {
       name: "My GitHub",
