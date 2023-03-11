@@ -1,9 +1,9 @@
 import { BrowserRouter } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas } from "./components";
 
-import ReactGA from 'react-ga';
-ReactGA.initialize('UA-251755805-1');
-ReactGA.pageview(window.location.pathname + window.location.search);
+// import ReactGA from 'react-ga';
+// ReactGA.initialize('UA-251755805-1');
+// ReactGA.pageview(window.location.pathname + window.location.search);
 
 const App = () => {
   return (
